@@ -1,0 +1,177 @@
+body{
+     background-image:  linear-gradient(#4001fbd4 30%, #9c01fbd4); 
+    height: 100vh;
+}
+.window{
+    width:90%;    
+    height: 600px;
+    background-color: gray;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #aaa;
+    box-shadow: 0 0 30px black;
+    overflow: hidden;
+}
+    
+.car-tur div{
+    display: inline-block;
+}
+.car-tur h3{
+    float: left;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+    cursor: pointer;
+}
+.car-tur div img{
+    width: 120px;
+    height: 80px;
+    
+}
+.car-tur div p{   
+    position: relative;
+    top: -15px;
+    text-align: center
+}
+.car-tur div:hover{
+    position: relative;
+    top: -50px;
+    transform: scale(1.3);
+    
+}
+
+.car-tur div:hover  p{
+    display: none;
+}
+.balon{
+    width: 400px;
+    position: relative;
+    top: -250px;
+    left: -500px;
+    z-index: 10;
+    
+}
+.moto{
+    width: 200px;
+    z-index:11;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    margin-top: 250px;
+    
+}
+.moto:active{
+    transform: scale(0.9)
+}
+.moto:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.big-car{
+    width: 99.5%;
+    height: 70%;
+    position: relative;
+    top:-400px;
+    display: none;
+    border-radius: 20px;
+    margin: 5px auto;
+    box-shadow: 0 0 20px gray;
+    background:white;
+    overflow: hidden;
+}
+.big-car img{
+    object-fit: cover;
+    width:44vw;
+}
+.car-color{
+    position: relative;
+    width: 99.5%;
+    height: 10%;
+    top: -398px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    display: none;
+    background: white;
+}
+
+.car-tur{
+    height: 90px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    display: none;
+    background: white;
+    
+    
+}
+.color{
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
+    box-shadow: 0 0 10px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.kok{background: blue}
+.malochni{background:#eee}
+.havorang{background: #8e99a9}
+.kulrang{background: #ccc}
+.qora{background: #000}
+.shikalad{background: brown}
+.qizil{background: #900}
+.toqkulrang{background: #333}
+.toqmalochni{background: #ddd}
+
+.chiziq{
+   
+    float: right;
+    position: relative;
+    
+    top: -200px;
+    right: 35px;
+    
+   
+    border-radius: 10px;
+}
+.rr{
+    width: 30px;
+    height: 30px;
+    border: 5px gray solid;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    margin-top: 5px;
+    color: lightgreen;
+    font-size: 14px;
+    
+}
+.rr:hover{
+    background-color: lightgreen;
+    color: aliceblue;
+}
+#narx{
+    position: relative;
+    top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
